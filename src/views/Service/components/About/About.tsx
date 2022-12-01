@@ -17,7 +17,8 @@ const Hero = (): JSX.Element => {
     <Box>
       <Box marginBottom={2}>
         <Typography component={'span'} variant="h3" sx={{ fontWeight: 700 }}>
-          Organic company growth with{' '}
+          Brand New ML Framework:
+          <br />
           <Typography
             component={'span'}
             variant={'inherit'}
@@ -29,43 +30,15 @@ const Hero = (): JSX.Element => {
               )} 0%)`,
             }}
           >
-            targeted leads
+            Causal Learning
           </Typography>
         </Typography>
       </Box>
       <Typography variant="h6" component="p" color={'text.secondary'}>
-        Our mission is to spread education that is easy accessible and everyone
-        can learn.
+        Causal Cooperative Nets(CCNets) is the brand new ML frameworks that are
+        composed of three models; an explainer, reasoner and producer neural
+        network model.
       </Typography>
-      <Box
-        display="flex"
-        flexWrap="wrap"
-        justifyContent={'flex-start'}
-        marginTop={4}
-      >
-        {[
-          'https://assets.maccarianagency.com/svg/logos/airbnb-original.svg',
-          'https://assets.maccarianagency.com/svg/logos/amazon-original.svg',
-          'https://assets.maccarianagency.com/svg/logos/fitbit-original.svg',
-          'https://assets.maccarianagency.com/svg/logos/netflix-original.svg',
-        ].map((item, i) => (
-          <Box maxWidth={70} marginTop={2} marginRight={4} key={i}>
-            <Box
-              component="img"
-              height={1}
-              width={1}
-              src={item}
-              alt="..."
-              sx={{
-                filter:
-                  theme.palette.mode === 'dark'
-                    ? 'brightness(0) invert(0.7)'
-                    : 'contrast(0) brightness(0)',
-              }}
-            />
-          </Box>
-        ))}
-      </Box>
     </Box>
   );
 

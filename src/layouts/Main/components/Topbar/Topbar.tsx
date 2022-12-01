@@ -40,14 +40,11 @@ const Topbar = ({
       >
         <Box
           component={'img'}
-          src={
-            mode === 'light' && !colorInvert
-              ? 'https://assets.maccarianagency.com/the-front/logos/logo.svg'
-              : 'https://assets.maccarianagency.com/the-front/logos/logo-negative.svg'
-          }
+          src={'favicon/favicon-32x32.png'}
           height={1}
-          width={1}
+          width={'32px'}
         />
+        {/* <b style={{ color: '#716F6FBA' }}>CCNets</b> */}
       </Box>
       <Box sx={{ display: { xs: 'none', md: 'flex' } }} alignItems={'center'}>
         <Box marginLeft={4}>
