@@ -80,62 +80,18 @@ const Features = (): JSX.Element => {
         </Box>
       </Grid>
       <Grid item xs={12} md={6}>
-        <Box
-          sx={{
-            maxWidth: 450,
-            position: 'relative',
-            marginX: 'auto',
-          }}
-        >
+        <Box>
           <Box
+            component={'img'}
+            loading="lazy"
+            src={'performance_of_ccnets.png'}
+            alt="Image Description"
+            width={1}
+            height={1}
             sx={{
-              position: 'relative',
-              borderRadius: '2.75rem',
-              boxShadow: 1,
-              width: '75% !important',
-              marginX: 'auto',
+              borderRadius: '2.5rem',
             }}
-          >
-            <Box>
-              <Box
-                position={'relative'}
-                zIndex={2}
-                maxWidth={1}
-                height={'auto'}
-                sx={{ verticalAlign: 'middle' }}
-              >
-                <PhoneSkeletonIllustration />
-              </Box>
-              <Box
-                position={'absolute'}
-                top={'2.4%'}
-                left={'4%'}
-                width={'92.4%'}
-                height={'96%'}
-              >
-                <Box
-                  component={'img'}
-                  loading="lazy"
-                  src={
-                    theme.palette.mode === 'light'
-                      ? 'https://assets.maccarianagency.com/screenshots/crypto-mobile.png'
-                      : 'https://assets.maccarianagency.com/screenshots/crypto-mobile--dark.png'
-                  }
-                  alt="Image Description"
-                  width={1}
-                  height={1}
-                  sx={{
-                    objectFit: 'cover',
-                    borderRadius: '2.5rem',
-                    filter:
-                      theme.palette.mode === 'dark'
-                        ? 'brightness(0.7)'
-                        : 'none',
-                  }}
-                />
-              </Box>
-            </Box>
-          </Box>
+          />
         </Box>
       </Grid>
     </Grid>
