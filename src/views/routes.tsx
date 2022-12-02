@@ -4,7 +4,6 @@ import {
   Customers as CustomersView,
   HireUs as HireUsView,
   Service as ServiceView,
-  About as AboutView,
   CompanyTerms as CompanyTermsView,
   ContactPageCover as ContactPageCoverView,
   AboutSideCover as AboutSideCoverView,
@@ -30,17 +29,13 @@ const routes = [
     renderer: (params = {}): JSX.Element => <CompanyTermsView {...params} />,
   },
   {
-    path: '/contact-page-cover',
+    path: '/contact',
     renderer: (params = {}): JSX.Element => (
       <ContactPageCoverView {...params} />
     ),
   },
   {
     path: '/about',
-    renderer: (params = {}): JSX.Element => <AboutView {...params} />,
-  },
-  {
-    path: '/about-side-cover',
     renderer: (params = {}): JSX.Element => <AboutSideCoverView {...params} />,
   },
   {

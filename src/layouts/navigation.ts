@@ -1,6 +1,10 @@
 const pages = {
   company: [
     {
+      title: 'About Us',
+      href: '/about',
+    },
+    {
       title: 'Customer Stories',
       href: '/customers',
     },
@@ -9,20 +13,12 @@ const pages = {
       href: '/hire-us',
     },
     {
-      title: 'About: Startup',
-      href: '/about-side-cover',
-    },
-    {
-      title: 'About',
-      href: '/about',
+      title: 'Contact',
+      href: '/contact',
     },
     {
       title: 'Terms',
       href: '/company-terms',
-    },
-    {
-      title: 'Contact: Minimal',
-      href: '/contact-page-cover',
     },
   ],
 };
