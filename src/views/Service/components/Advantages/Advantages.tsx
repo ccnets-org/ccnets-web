@@ -179,35 +179,6 @@ const Advantages = (): JSX.Element => {
           <br />
           An experience you'd expect from a design system.
         </Typography>
-        <Box marginTop={3} display={'flex'} justifyContent={'center'}>
-          <Button
-            component={'a'}
-            href={'https://mui.com/store/items/the-front-landing-page/'}
-            target={'_blank'}
-            variant="contained"
-            color="primary"
-            size="large"
-            endIcon={
-              <svg
-                width={16}
-                height={16}
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M17 8l4 4m0 0l-4 4m4-4H3"
-                />
-              </svg>
-            }
-          >
-            Purchase now
-          </Button>
-        </Box>
       </Box>
       <Box>
         <Grid container spacing={4}>
