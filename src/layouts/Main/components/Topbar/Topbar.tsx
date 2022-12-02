@@ -59,10 +59,10 @@ const Topbar = ({
           <Link
             underline="none"
             component="a"
-            href="/docs/introduction"
-            color={colorInvert ? 'common.white' : 'text.primary'}
+            href="https://github.com/junho-ccnets/causal-learning.git"
+            color={'text.primary'}
           >
-            Docs
+            Github
           </Link>
         </Box>
       </Box>

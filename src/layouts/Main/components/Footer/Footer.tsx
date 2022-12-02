@@ -50,11 +50,11 @@ const Footer = (): JSX.Element => {
               <Link
                 underline="none"
                 component="a"
-                href="/docs/introduction"
+                href="https://github.com/junho-ccnets/causal-learning.git"
                 color="text.primary"
                 variant={'subtitle2'}
               >
-                Documentation
+                Github
               </Link>
             </Box>
           </Box>
