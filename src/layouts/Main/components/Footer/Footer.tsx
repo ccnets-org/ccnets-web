@@ -29,13 +29,9 @@ const Footer = (): JSX.Element => {
           >
             <Box
               component={'img'}
-              src={
-                mode === 'light'
-                  ? 'https://assets.maccarianagency.com/the-front/logos/logo.svg'
-                  : 'https://assets.maccarianagency.com/the-front/logos/logo-negative.svg'
-              }
+              src={'favicon/favicon-32x32.png'}
               height={1}
-              width={1}
+              width={'32px'}
             />
           </Box>
           <Box display="flex" flexWrap={'wrap'} alignItems={'center'}>
@@ -61,18 +57,6 @@ const Footer = (): JSX.Element => {
                 Documentation
               </Link>
             </Box>
-            <Box marginTop={1}>
-              <Button
-                variant="outlined"
-                color="primary"
-                component="a"
-                target="blank"
-                href="https://mui.com/store/items/the-front-landing-page/"
-                size="small"
-              >
-                Purchase now
-              </Button>
-            </Box>
           </Box>
         </Box>
       </Grid>
@@ -83,7 +67,7 @@ const Footer = (): JSX.Element => {
           color="text.secondary"
           gutterBottom
         >
-          &copy; theFront. 2021, Maccarian. All rights reserved
+          &copy; CCNets. 2022, All rights reserved
         </Typography>
         <Typography
           align={'center'}

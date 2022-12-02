@@ -5,6 +5,7 @@ import { alpha, useTheme } from '@mui/material/styles';
 import MenuIcon from '@mui/icons-material/Menu';
 
 import { NavItem } from './components';
+import Link from '@mui/material/Link';
 
 interface Props {
   // eslint-disable-next-line @typescript-eslint/ban-types
@@ -21,7 +22,6 @@ const Topbar = ({
   colorInvert = false,
 }: Props): JSX.Element => {
   const theme = useTheme();
-  const { mode } = theme.palette;
   const { company: companyPages } = pages;
 
   return (
@@ -54,6 +54,16 @@ const Topbar = ({
             items={companyPages}
             colorInvert={colorInvert}
           />
+        </Box>
+        <Box marginLeft={4}>
+          <Link
+            underline="none"
+            component="a"
+            href="/docs/introduction"
+            color={colorInvert ? 'common.white' : 'text.primary'}
+          >
+            Docs
+          </Link>
         </Box>
       </Box>
       <Box sx={{ display: { xs: 'flex', md: 'none' } }} alignItems={'center'}>
