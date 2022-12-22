@@ -4,15 +4,7 @@ import Box from '@mui/material/Box';
 import Divider from '@mui/material/Divider';
 import Main from 'layouts/Main';
 import Container from 'components/Container';
-import {
-  About,
-  Advantages,
-  Features,
-  Integrations,
-  Reviews,
-  Team,
-  VideoSection,
-} from './components';
+import { About, Advantages, Features, VideoSection } from './components';
 
 const Service = (): JSX.Element => {
   const theme = useTheme();
@@ -64,18 +56,6 @@ const Service = (): JSX.Element => {
       <Container>
         <Features />
       </Container>
-      <Divider />
-      <Container>
-        <Reviews />
-      </Container>
-      <Container paddingTop={'0 !important'}>
-        <Integrations />
-      </Container>
-      <Box bgcolor={'alternate.main'}>
-        <Container>
-          <Team />
-        </Container>
-      </Box>
     </Main>
   );
 };
