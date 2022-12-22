@@ -9,7 +9,6 @@ import ListItem from '@mui/material/ListItem';
 import ListItemAvatar from '@mui/material/ListItemAvatar';
 import ListItemText from '@mui/material/ListItemText';
 import Avatar from '@mui/material/Avatar';
-import PhoneSkeletonIllustration from 'svg/illustrations/PhoneSkeleton';
 
 const Features = (): JSX.Element => {
   const theme = useTheme();
@@ -82,7 +81,12 @@ const Features = (): JSX.Element => {
           </Grid>
         </Box>
       </Grid>
-      <Grid item xs={12} md={6}>
+      <Grid
+        item
+        xs={12}
+        md={6}
+        style={{ display: 'flex', alignItems: 'center' }}
+      >
         <Box>
           <Box
             component={'img'}
