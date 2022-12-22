@@ -10,9 +10,9 @@ import Typography from '@mui/material/Typography';
 
 const mock = [
   {
-    title: 'Themeable',
+    title: 'Versatile',
     subtitle:
-      'Customize any part of our components to match your design needs.',
+      'Indicates the possibility of data modeling through training to learn causality (cause and effect) from data',
     icon: (
       <svg
         height={24}
@@ -32,9 +32,9 @@ const mock = [
     ),
   },
   {
-    title: 'Light and dark UI',
+    title: 'Accurate',
     subtitle:
-      'Optimized for multiple color modes. Use light or dark, your choice.',
+      'Indicates the importance/relevance of each feature for the prediction of labels',
     icon: (
       <svg
         height={24}
@@ -54,9 +54,9 @@ const mock = [
     ),
   },
   {
-    title: 'Composable',
+    title: 'Insightful',
     subtitle:
-      'Designed with composition in mind. Compose new components with ease.',
+      'May create accurate hypothetical situations by altering features in data',
     icon: (
       <svg
         height={24}
@@ -76,9 +76,9 @@ const mock = [
     ),
   },
   {
-    title: 'Developer experience',
+    title: 'Explainable',
     subtitle:
-      'Guaranteed to boost your productivity when building your app or website.',
+      'Clearly indicates to the user how it came to its results or conclusion',
     icon: (
       <svg
         height={24}
@@ -98,8 +98,9 @@ const mock = [
     ),
   },
   {
-    title: 'Continuous updates',
-    subtitle: 'We continually deploy improvements and new updates to theFront.',
+    title: 'Trustworthy',
+    subtitle:
+      'As CCN’s are explainable, the relationship between humans and machines don’t have to be one-way or transactional any longer',
     icon: (
       <svg
         height={24}
@@ -119,9 +120,9 @@ const mock = [
     ),
   },
   {
-    title: 'Free support',
+    title: 'Reconstructable',
     subtitle:
-      '6 months of free technical support to help you build your website faster.',
+      'Reconstructs data through causal inference when some features of observational data are omitted',
     icon: (
       <svg
         height={24}

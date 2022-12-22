@@ -34,10 +34,13 @@ const Features = (): JSX.Element => {
           </Box>
           <Grid container spacing={1}>
             {[
-              'Lifetime updates & introduction and working',
-              'Tech support & mutual funds',
-              'Tons of assets & lifetime updates',
-              'Integration ready & tech support',
+              'Adaptable to new data / situations',
+              'Works with data sets of all sizes, even with missing data',
+              'Clearly shows its processes ',
+              'Explainable (the ‘why’ is shown)',
+              'Can deal with hypothetical situations',
+              'Can reconstruct data',
+              ' Bias-free',
             ].map((item, i) => (
               <Grid item xs={12} key={i}>
                 <Box

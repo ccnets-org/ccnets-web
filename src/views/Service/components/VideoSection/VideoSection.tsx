@@ -37,8 +37,8 @@ const VideoSection = (): JSX.Element => {
               color="text.secondary"
               textAlign={'center'}
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
-              deserunt?
+              “We are taking machine learning beyond summarizing data. It’s not
+              just the what, it’s the why” - Judea Pearl
             </Typography>
           </Box>
           <Box
