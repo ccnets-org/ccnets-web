@@ -1,4 +1,3 @@
-export { default as Customers } from './Customers';
 export { default as HireUs } from './HireUs';
 export { default as Service } from './Service';
 export { default as CompanyTerms } from './CompanyTerms';

@@ -5,10 +5,6 @@ const pages = {
       href: '/about',
     },
     {
-      title: 'Customer Stories',
-      href: '/customers',
-    },
-    {
       title: 'Hire Us',
       href: '/hire-us',
     },
