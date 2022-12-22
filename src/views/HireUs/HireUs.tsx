@@ -5,7 +5,7 @@ import Divider from '@mui/material/Divider';
 
 import Main from 'layouts/Main';
 import Container from 'components/Container';
-import { Headline, Form, Partners } from './components';
+import { Headline, Form } from './components';
 
 const HireUs = (): JSX.Element => {
   const theme = useTheme();
@@ -25,14 +25,8 @@ const HireUs = (): JSX.Element => {
             <Headline />
           </Container>
         </Box>
-        <Container maxWidth={800} paddingBottom={'0 !important'}>
+        <Container maxWidth={800}>
           <Form />
-        </Container>
-        <Container>
-          <Divider />
-        </Container>
-        <Container paddingTop={'0 !important'}>
-          <Partners />
         </Container>
       </Box>
     </Main>
