@@ -35,7 +35,7 @@ const Hero = (): JSX.Element => {
         </Typography>
       </Box>
       <Typography variant="h6" component="p" color={'text.secondary'}>
-        Causal Cooperative Nets(CCNets) is the brand new ML frameworks that are
+        Causal Cooperative Nets(CCNets) is a brand new ML framework that is
         composed of three models; an explainer, reasoner and producer neural
         network model.
       </Typography>
