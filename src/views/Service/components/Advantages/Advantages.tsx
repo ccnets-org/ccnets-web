@@ -109,9 +109,7 @@ const Advantages = (): JSX.Element => {
           align={'center'}
           sx={{ fontWeight: 700 }}
         >
-          The powerful and flexible theme
-          <br />
-          for all kinds of businesses
+          What makes CCNets unique?
         </Typography>
         <Typography
           variant={'h6'}
@@ -119,10 +117,7 @@ const Advantages = (): JSX.Element => {
           color={'text.secondary'}
           align={'center'}
         >
-          Build a beautiful, modern website with flexible, fully customizable,
-          atomic MUI components.
-          <br />
-          An experience you'd expect from a design system.
+          Six key components that are closely interlinked with one another
         </Typography>
       </Box>
       <Box>

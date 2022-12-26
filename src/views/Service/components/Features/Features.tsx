@@ -22,13 +22,11 @@ const Features = (): JSX.Element => {
         <Box data-aos={isMd ? 'fade-right' : 'fade-up'}>
           <Box marginBottom={2}>
             <Typography variant={'h4'} sx={{ fontWeight: 700 }} gutterBottom>
-              The powerful and flexible theme for all kinds of businesses
+              Performance of current leading models
             </Typography>
             <Typography color="text.secondary" variant={'h6'}>
-              Send one-off and automated email, push, and in-app messages to
-              people.
-              <br />
-              Create better stories.
+              Every kind of model has its own strengths and weaknesses, how do
+              they compare?
             </Typography>
           </Box>
           <Grid container spacing={1}>
