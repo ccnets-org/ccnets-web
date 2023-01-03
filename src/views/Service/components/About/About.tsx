@@ -65,14 +65,14 @@ const Hero = (): JSX.Element => {
               maxWidth: '96%',
             }}
           >
-            {/* <Box
+            <Box
               component={'img'}
               loading="lazy"
               src="shadowFinal.gif"
               alt="Image Description"
               width={1}
               height={1}
-            /> */}
+            />
           </Box>
         </Box>
       </Grid>
