@@ -13,7 +13,6 @@ interface Props {
 
 const SidebarNav = ({ pages }: Props): JSX.Element => {
   const theme = useTheme();
-  const { mode } = theme.palette;
 
   const { company: companyPages } = pages;
 
@@ -24,48 +23,20 @@ const SidebarNav = ({ pages }: Props): JSX.Element => {
           display={'flex'}
           component="a"
           href="/"
-          title="theFront"
+          title="CCNets"
           width={{ xs: 100, md: 120 }}
         >
           <Box
             component={'img'}
-            src={
-              mode === 'light'
-                ? 'https://assets.maccarianagency.com/the-front/logos/logo.svg'
-                : 'https://assets.maccarianagency.com/the-front/logos/logo-negative.svg'
-            }
+            src={'favicon/favicon-32x32.png'}
             height={1}
-            width={1}
+            width={0.3}
           />
         </Box>
       </Box>
       <Box paddingX={2} paddingY={2}>
         <Box>
           <NavItem title={'Company'} items={companyPages} />
-        </Box>
-        <Box marginTop={2}>
-          <Button
-            size={'large'}
-            variant="outlined"
-            fullWidth
-            component="a"
-            href="/docs/introduction"
-          >
-            Documentation
-          </Button>
-        </Box>
-        <Box marginTop={1}>
-          <Button
-            size={'large'}
-            variant="contained"
-            color="primary"
-            fullWidth
-            component="a"
-            target="blank"
-            href="https://mui.com/store/items/the-front-landing-page/"
-          >
-            Purchase now
-          </Button>
         </Box>
       </Box>
     </Box>
