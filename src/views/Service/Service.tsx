@@ -1,10 +1,15 @@
-import React from 'react';
 import { useTheme } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import Divider from '@mui/material/Divider';
 import Main from 'layouts/Main';
 import Container from 'components/Container';
-import { About, Advantages, Features, VideoSection } from './components';
+import {
+  About,
+  Advantages,
+  Features,
+  VideoSection,
+  Mission,
+} from './components';
 
 const Service = (): JSX.Element => {
   const theme = useTheme();
@@ -47,6 +52,9 @@ const Service = (): JSX.Element => {
       </Box>
       <Container>
         <VideoSection />
+      </Container>
+      <Container>
+        <Mission />
       </Container>
       <Box bgcolor={'alternate.main'}>
         <Container>
