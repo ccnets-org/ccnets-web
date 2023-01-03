@@ -46,12 +46,6 @@ const Main = ({
 
   return (
     <Box>
-      {/* dark mode */}
-      {/* <Box bgcolor={bgcolor} position={'relative'} zIndex={theme.zIndex.appBar}>
-        <Container paddingTop={'8px !important'} paddingBottom={'0 !important'}>
-          <TopNav colorInvert={colorInvert} />
-        </Container>
-      </Box> */}
       <AppBar
         position={'sticky'}
         sx={{

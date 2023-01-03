@@ -109,15 +109,7 @@ const Advantages = (): JSX.Element => {
           align={'center'}
           sx={{ fontWeight: 700 }}
         >
-          What makes CCNets unique?
-        </Typography>
-        <Typography
-          variant={'h6'}
-          component={'p'}
-          color={'text.secondary'}
-          align={'center'}
-        >
-          Six key components that are closely interlinked with one another
+          Comprised of six key interlinking characteristics
         </Typography>
       </Box>
       <Box>

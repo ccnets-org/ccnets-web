@@ -5,7 +5,6 @@ import useMediaQuery from '@mui/material/useMediaQuery';
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
-import LaptopSkeletonIllustration from 'svg/illustrations/LaptopSkeleton';
 
 const Hero = (): JSX.Element => {
   const theme = useTheme();
@@ -63,46 +62,17 @@ const Hero = (): JSX.Element => {
             sx={{
               position: 'relative',
               marginX: 'auto',
-              transform: 'rotateY(-35deg) rotateX(15deg) translateZ(0)',
               maxWidth: '96%',
             }}
           >
-            <Box>
-              <Box
-                position={'relative'}
-                zIndex={2}
-                maxWidth={1}
-                height={'auto'}
-                sx={{ verticalAlign: 'middle' }}
-              >
-                <LaptopSkeletonIllustration />
-              </Box>
-              <Box
-                position={'absolute'}
-                top={'8.4%'}
-                left={'12%'}
-                width={'76%'}
-                height={'83%'}
-                border={`1px solid ${theme.palette.alternate.dark}`}
-                zIndex={3}
-              >
-                <Box
-                  component={'img'}
-                  loading="lazy"
-                  src="https://assets.maccarianagency.com/screenshots/dashboard.png"
-                  alt="Image Description"
-                  width={1}
-                  height={1}
-                  sx={{
-                    objectFit: 'cover',
-                    filter:
-                      theme.palette.mode === 'dark'
-                        ? 'brightness(0.7)'
-                        : 'none',
-                  }}
-                />
-              </Box>
-            </Box>
+            {/* <Box
+              component={'img'}
+              loading="lazy"
+              src="shadowFinal.gif"
+              alt="Image Description"
+              width={1}
+              height={1}
+            /> */}
           </Box>
         </Box>
       </Grid>

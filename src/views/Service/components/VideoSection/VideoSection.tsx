@@ -26,8 +26,7 @@ const VideoSection = (): JSX.Element => {
               }}
               textAlign={'center'}
             >
-              Now available on
-              <br /> Google Play market and Apple Store
+              (Slogan) Lorem ipsum dolor sit amet.
             </Typography>
           </Box>
           <Box marginBottom={3}>
