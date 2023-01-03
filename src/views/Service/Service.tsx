@@ -9,6 +9,7 @@ import {
   Features,
   VideoSection,
   Mission,
+  Fields,
 } from './components';
 
 const Service = (): JSX.Element => {
@@ -63,6 +64,9 @@ const Service = (): JSX.Element => {
       </Box>
       <Container>
         <Features />
+      </Container>
+      <Container>
+        <Fields />
       </Container>
     </Main>
   );
