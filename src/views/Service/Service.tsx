@@ -18,8 +18,8 @@ const Service = (): JSX.Element => {
     <Main>
       <Box
         sx={{
-          backgroundColor: theme.palette.alternate.main,
-          backgroundImage: `linear-gradient(120deg, ${theme.palette.background.paper} 0%, ${theme.palette.alternate.main} 100%)`,
+          // backgroundColor: 'w',
+          // backgroundImage: `linear-gradient(120deg, ${theme.palette.background.paper} 0%, ${theme.palette.alternate.main} 100%)`,
           position: 'relative',
           marginTop: -13,
           paddingTop: 13,
@@ -51,9 +51,11 @@ const Service = (): JSX.Element => {
           />
         </Box>
       </Box>
-      <Container>
-        <VideoSection />
-      </Container>
+      <Box bgcolor={'alternate.main'}>
+        <Container>
+          <VideoSection />
+        </Container>
+      </Box>
       <Container>
         <Mission />
       </Container>
@@ -63,11 +65,13 @@ const Service = (): JSX.Element => {
         </Container>
       </Box>
       <Container>
-        <Features />
-      </Container>
-      <Container>
         <Fields />
       </Container>
+      <Box bgcolor={'alternate.main'}>
+        <Container>
+          <Features />
+        </Container>
+      </Box>
     </Main>
   );
 };

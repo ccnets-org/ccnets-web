@@ -31,13 +31,13 @@ const Features = (): JSX.Element => {
           </Box>
           <Grid container spacing={1}>
             {[
-              'Adaptable to new data / situations',
-              'Works with data sets of all sizes, even with missing data',
-              'Clearly shows its processes ',
-              'Explainable (the ‘why’ is shown)',
-              'Can deal with hypothetical situations',
-              'Can reconstruct data',
-              ' Bias-free',
+              'Relevant to a wide variety of fields',
+              'Capable of dealing with hypothetical scenarios',
+              'Adaptable and flexible to new situations',
+              'Applicable with data sets of all sizes, even with missing data',
+              'Data becomes reconstructable',
+              'Displays its inner workings clearly to the user (a “white box”)',
+              'Explainable results and processes Objective and without bias',
             ].map((item, i) => (
               <Grid item xs={12} key={i}>
                 <Box

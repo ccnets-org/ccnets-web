@@ -53,27 +53,18 @@ const Hero = (): JSX.Element => {
           sx={{
             position: 'relative',
             marginX: 'auto',
-            perspective: 1500,
-            transformStyle: 'preserve-3d',
-            perspectiveOrigin: 0,
+            maxWidth: '96%',
           }}
         >
           <Box
-            sx={{
-              position: 'relative',
-              marginX: 'auto',
-              maxWidth: '96%',
-            }}
-          >
-            <Box
-              component={'img'}
-              loading="lazy"
-              src="logogif.gif"
-              alt="Logo gif"
-              width={0.6}
-              height={1}
-            />
-          </Box>
+            data-aos={'fade-left'}
+            component={'img'}
+            loading="lazy"
+            src="logogif.gif"
+            alt="Logo gif"
+            width={0.7}
+            height={1}
+          />
         </Box>
       </Grid>
     </Grid>
