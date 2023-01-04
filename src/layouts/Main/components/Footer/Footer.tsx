@@ -57,6 +57,17 @@ const Footer = (): JSX.Element => {
                 Github
               </Link>
             </Box>
+            <Box marginTop={1} marginRight={2}>
+              <Link
+                underline="none"
+                component="a"
+                href="https://patents.google.com/patent/WO2022164299A1"
+                color="text.primary"
+                variant={'subtitle2'}
+              >
+                Publication
+              </Link>
+            </Box>
           </Box>
         </Box>
       </Grid>

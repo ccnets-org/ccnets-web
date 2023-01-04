@@ -65,6 +65,16 @@ const Topbar = ({
             Github
           </Link>
         </Box>
+        <Box marginLeft={4}>
+          <Link
+            underline="none"
+            component="a"
+            href="https://patents.google.com/patent/WO2022164299A1"
+            color={'text.primary'}
+          >
+            Publication
+          </Link>
+        </Box>
       </Box>
       <Box sx={{ display: { xs: 'flex', md: 'none' } }} alignItems={'center'}>
         <Button
