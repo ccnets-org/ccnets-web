@@ -1,7 +1,6 @@
 import React from 'react';
 
 import {
-  HireUs as HireUsView,
   Service as ServiceView,
   CompanyTerms as CompanyTermsView,
   ContactPageCover as ContactPageCoverView,
@@ -14,10 +13,6 @@ const routes = [
   {
     path: '/',
     renderer: (params = {}): JSX.Element => <ServiceView {...params} />,
-  },
-  {
-    path: '/hire-us',
-    renderer: (params = {}): JSX.Element => <HireUsView {...params} />,
   },
   {
     path: '/company-terms',

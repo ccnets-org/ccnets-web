@@ -28,10 +28,7 @@ const validationSchema = yup.object({
     .trim()
     .email('Please enter a valid email address')
     .required('Email is required.'),
-  message: yup
-    .string()
-    .trim()
-    .required('Please specify your message'),
+  message: yup.string().trim().required('Please specify your message'),
 });
 
 const Contact = (): JSX.Element => {
@@ -66,9 +63,8 @@ const Contact = (): JSX.Element => {
           Contact us
         </Typography>
         <Typography color="text.secondary" align={'center'}>
-          Rather than worrying about switching offices every couple years, you
-          can instead stay in the same location and grow-up from your shared
-          coworking space to an office that takes up an entire floor.
+          Please enter your information below, and we will get back to you
+          shortly.
         </Typography>
       </Box>
       <Box>
@@ -154,11 +150,6 @@ const Contact = (): JSX.Element => {
               >
                 Submit
               </Button>
-            </Grid>
-            <Grid item container justifyContent={'center'} xs={12}>
-              <Typography color="text.secondary">
-                We'll get back to you in 1-2 business days.
-              </Typography>
             </Grid>
             <Grid item xs={12}>
               <Divider />

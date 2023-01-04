@@ -5,10 +5,6 @@ const pages = {
       href: '/about',
     },
     {
-      title: 'Hire Us',
-      href: '/hire-us',
-    },
-    {
       title: 'Contact',
       href: '/contact',
     },
