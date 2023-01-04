@@ -68,9 +68,9 @@ const Hero = (): JSX.Element => {
             <Box
               component={'img'}
               loading="lazy"
-              src="shadowFinal.gif"
-              alt="Image Description"
-              width={1}
+              src="logogif.gif"
+              alt="Logo gif"
+              width={0.6}
               height={1}
             />
           </Box>
