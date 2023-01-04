@@ -47,6 +47,8 @@ const Mission = (): JSX.Element => {
                 sx={{
                   borderRadius: '2.5rem',
                 }}
+                data-aos={'fade-down'}
+                data-aos-delay={100}
               />
               <Typography
                 variant="h5"
@@ -66,6 +68,9 @@ const Mission = (): JSX.Element => {
                 sx={{
                   borderRadius: '2.5rem',
                 }}
+                data-aos={'fade-down'}
+                data-aos-delay={200}
+                data-aos-duration={800}
               />
             </Box>
           </Box>

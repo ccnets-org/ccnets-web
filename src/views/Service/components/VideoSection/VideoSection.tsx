@@ -23,10 +23,11 @@ const VideoSection = (): JSX.Element => {
               color="text.primary"
               sx={{
                 fontWeight: 700,
+                fontStyle: 'italic',
               }}
               textAlign={'center'}
             >
-              (Slogan) Lorem ipsum dolor sit amet.
+              Intrinsically Intelligent
             </Typography>
           </Box>
           <Box marginBottom={3}>
