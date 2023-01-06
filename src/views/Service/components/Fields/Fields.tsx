@@ -28,24 +28,30 @@ const Mission = (): JSX.Element => {
             </Typography>
           </Box>
           <Box marginBottom={3}>
-            <Box>
+            <Box
+              display={'flex'}
+              flexDirection={'column'}
+              alignItems={'center'}
+            >
               <Typography
                 variant="h5"
                 component="p"
                 color="text.secondary"
                 textAlign={'center'}
+                margin={'8px 0'}
               >
                 [Causal Learning and Data Science]
               </Typography>
               <Box
                 component={'img'}
                 loading="lazy"
-                src={'ds_field.jpeg'}
+                src={'ds_field.png'}
                 alt="Image Description"
-                width={1}
+                width={0.5}
                 height={1}
                 sx={{
                   borderRadius: '2.5rem',
+                  marginBottom: '32px',
                 }}
                 data-aos={'fade-down'}
                 data-aos-delay={100}
@@ -55,15 +61,16 @@ const Mission = (): JSX.Element => {
                 component="p"
                 color="text.secondary"
                 textAlign={'center'}
+                margin={'8px 0'}
               >
                 [Causal Learning and Machine Learning]
               </Typography>
               <Box
                 component={'img'}
                 loading="lazy"
-                src={'ml_field.jpeg'}
+                src={'ml_field.png'}
                 alt="Image Description"
-                width={1}
+                width={0.8}
                 height={1}
                 sx={{
                   borderRadius: '2.5rem',

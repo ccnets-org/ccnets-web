@@ -4,6 +4,7 @@ export const light = {
   alternate: {
     main: '#f7faff',
     dark: '#edf1f7',
+    sub: '#fefcfe',
   },
   cardShadow: 'rgba(23, 70, 161, .11)',
   mode: 'light' as PaletteMode,

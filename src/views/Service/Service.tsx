@@ -15,11 +15,11 @@ const Service = (): JSX.Element => {
     <Main>
       <Box
         sx={{
-          backgroundColor: '#fefcfe',
           position: 'relative',
           marginTop: -13,
           paddingTop: 13,
         }}
+        bgcolor={'alternate.sub'}
       >
         <Container position={'relative'} zIndex={3}>
           <About />
@@ -30,17 +30,21 @@ const Service = (): JSX.Element => {
           <VideoSection />
         </Container>
       </Box>
-      <Container sx={{ backgroundColor: '#fefcfe' }}>
-        <Mission />
-      </Container>
+      <Box bgcolor={'alternate.sub'}>
+        <Container>
+          <Mission />
+        </Container>
+      </Box>
       <Box bgcolor={'alternate.main'}>
         <Container>
           <Advantages />
         </Container>
       </Box>
-      <Container sx={{ backgroundColor: '#fefcfe' }}>
-        <Fields />
-      </Container>
+      <Box bgcolor={'alternate.sub'}>
+        <Container>
+          <Fields />
+        </Container>
+      </Box>
       <Box bgcolor={'alternate.main'}>
         <Container>
           <Features />
