@@ -20,11 +20,11 @@ const Footer = (): JSX.Element => {
           width={1}
           flexDirection={{ xs: 'column', sm: 'row' }}
         >
-          <Box
+          {/* <Box
             display={'flex'}
             component="a"
             href="/"
-            title="theFront"
+            title="CCnets"
             width={80}
           >
             <Box
@@ -33,8 +33,13 @@ const Footer = (): JSX.Element => {
               height={1}
               width={'32px'}
             />
-          </Box>
-          <Box display="flex" flexWrap={'wrap'} alignItems={'center'}>
+          </Box> */}
+          <Box
+            display="flex"
+            flexWrap={'wrap'}
+            alignItems={'center'}
+            justifyContent={'end'}
+          >
             <Box marginTop={1} marginRight={2}>
               <Link
                 underline="none"

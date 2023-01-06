@@ -22,7 +22,7 @@ const Features = (): JSX.Element => {
         <Box data-aos={isMd ? 'fade-right' : 'fade-up'}>
           <Box marginBottom={2}>
             <Typography variant={'h4'} sx={{ fontWeight: 700 }} gutterBottom>
-              Performance of current leading models
+              Aptitudes of CCNets
             </Typography>
             <Typography color="text.secondary" variant={'h6'}>
               Every kind of model has its own strengths and weaknesses, how do

@@ -50,11 +50,10 @@ const Mission = (): JSX.Element => {
                 width={0.4}
                 height={1}
                 sx={{
-                  borderRadius: '2.5rem',
                   marginBottom: '32px',
                 }}
-                data-aos={'fade-down'}
-                data-aos-delay={100}
+                // data-aos={'fade-down'}
+                // data-aos-delay={100}
               />
               <Typography
                 variant="h5"
@@ -72,9 +71,6 @@ const Mission = (): JSX.Element => {
                 alt="Image Description"
                 width={0.8}
                 height={1}
-                sx={{
-                  borderRadius: '2.5rem',
-                }}
                 data-aos={'fade-down'}
                 data-aos-delay={200}
                 data-aos-duration={800}

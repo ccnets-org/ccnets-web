@@ -1,5 +1,5 @@
-import React from 'react';
 import Box from '@mui/material/Box';
+import Link from '@mui/material/Link';
 import Button from '@mui/material/Button';
 import { useTheme } from '@mui/material/styles';
 
@@ -34,10 +34,33 @@ const SidebarNav = ({ pages }: Props): JSX.Element => {
           />
         </Box>
       </Box>
+      {/* <Box paddingX={2} paddingY={2}>
+        <NavItem title={'Company'} items={companyPages} />
+      </Box> */}
       <Box paddingX={2} paddingY={2}>
-        <Box>
-          <NavItem title={'Company'} items={companyPages} />
-        </Box>
+        <Link underline="none" component="a" href="/" color="text.primary">
+          Home
+        </Link>
+      </Box>
+      <Box paddingX={2} paddingY={2}>
+        <Link
+          underline="none"
+          component="a"
+          href="https://github.com/junho-ccnets/causal-learning.git"
+          color={'text.primary'}
+        >
+          Github
+        </Link>
+      </Box>
+      <Box paddingX={2} paddingY={2}>
+        <Link
+          underline="none"
+          component="a"
+          href="https://patents.google.com/patent/WO2022164299A1"
+          color={'text.primary'}
+        >
+          Publication
+        </Link>
       </Box>
     </Box>
   );

@@ -35,7 +35,7 @@ const Topbar = ({
         display={'flex'}
         component="a"
         href="/"
-        title="theFront"
+        title="CCNets"
         width={{ xs: 100, md: 120 }}
       >
         <Box
@@ -47,14 +47,14 @@ const Topbar = ({
         {/* <b style={{ color: '#716F6FBA' }}>CCNets</b> */}
       </Box>
       <Box sx={{ display: { xs: 'none', md: 'flex' } }} alignItems={'center'}>
-        <Box marginLeft={4}>
+        {/* <Box marginLeft={4}>
           <NavItem
             title={'Company'}
             id={'company-pages'}
             items={companyPages}
             colorInvert={colorInvert}
           />
-        </Box>
+        </Box> */}
         <Box marginLeft={4}>
           <Link
             underline="none"
