@@ -47,7 +47,7 @@ const Mission = (): JSX.Element => {
                 loading="lazy"
                 src={'ds_field.png'}
                 alt="Image Description"
-                width={0.5}
+                width={0.4}
                 height={1}
                 sx={{
                   borderRadius: '2.5rem',
