@@ -33,7 +33,7 @@ const Mission = (): JSX.Element => {
               flexDirection={'column'}
               alignItems={'center'}
             >
-              <Typography
+              {/* <Typography
                 variant="h5"
                 component="p"
                 color="text.secondary"
@@ -54,13 +54,13 @@ const Mission = (): JSX.Element => {
                 }}
                 // data-aos={'fade-down'}
                 // data-aos-delay={100}
-              />
+              /> */}
               <Typography
                 variant="h5"
                 component="p"
                 color="text.secondary"
                 textAlign={'center'}
-                margin={'8px 0'}
+                margin={'16px 0'}
               >
                 [Causal Learning and Machine Learning]
               </Typography>
