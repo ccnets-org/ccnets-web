@@ -20,7 +20,7 @@ const Footer = (): JSX.Element => {
           width={1}
           flexDirection={{ xs: 'column', sm: 'row' }}
         >
-          {/* <Box
+          <Box
             display={'flex'}
             component="a"
             href="/"
@@ -29,11 +29,11 @@ const Footer = (): JSX.Element => {
           >
             <Box
               component={'img'}
-              src={'favicon/favicon-32x32.png'}
+              src={'favicon/favicon_name.png'}
               height={1}
-              width={'32px'}
+              width={0.8}
             />
-          </Box> */}
+          </Box>
           <Box
             display="flex"
             flexWrap={'wrap'}

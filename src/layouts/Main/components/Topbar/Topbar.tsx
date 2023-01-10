@@ -30,6 +30,7 @@ const Topbar = ({
       justifyContent={'space-between'}
       alignItems={'center'}
       width={1}
+      maxHeight={'44px'}
     >
       <Box
         display={'flex'}
@@ -40,11 +41,10 @@ const Topbar = ({
       >
         <Box
           component={'img'}
-          src={'favicon/favicon-32x32.png'}
+          src={'favicon/favicon_name.png'}
           height={1}
-          width={'32px'}
+          width={0.7}
         />
-        {/* <b style={{ color: '#716F6FBA' }}>CCNets</b> */}
       </Box>
       <Box sx={{ display: { xs: 'none', md: 'flex' } }} alignItems={'center'}>
         {/* <Box marginLeft={4}>

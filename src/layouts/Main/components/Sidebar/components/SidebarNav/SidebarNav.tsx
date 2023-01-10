@@ -28,9 +28,9 @@ const SidebarNav = ({ pages }: Props): JSX.Element => {
         >
           <Box
             component={'img'}
-            src={'favicon/favicon-32x32.png'}
+            src={'favicon/favicon_name.png'}
             height={1}
-            width={0.3}
+            width={0.8}
           />
         </Box>
       </Box>
