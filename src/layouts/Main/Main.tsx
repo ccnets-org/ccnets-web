@@ -72,7 +72,7 @@ const Main = ({
         {children}
         <Divider />
       </main>
-      <Container paddingY={4}>
+      <Container paddingY={1}>
         <Footer />
       </Container>
     </Box>
